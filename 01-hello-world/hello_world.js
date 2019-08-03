@@ -1,18 +1,18 @@
 console.log('Hi there !')
 
-// Direct var
+/* Direct var */
 const name = 'Bardok'
 console.log(`Hello ${ name }, welcome!`)
 
-// From a function
+/* From a function */
 function getName(){
     return 'Golen'
 }
 console.log(`Hello ${ getName() }, welcome!`)
 
-// From another function
+/* From another function */
 const getNameLite = () => 'Kurt'
 console.log(`Hello ${ getNameLite() }, welcome!`)
 
-// From terminal
+/* From terminal */
 console.log(`Hello ${ process.argv[2] }, welcome!`)
