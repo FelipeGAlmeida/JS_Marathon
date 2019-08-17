@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DM124 - Pagina do Felipe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <script>
+        var color = ['Red', 'Green', 'Blue', 'White', 'Yellow']
+        var i = 0
+        
+        window.setInterval(() => {
+            i++
+            console.log(color[i])
+            changeBodyBg(color[i])
+            if(i == 4) i = -1
+        }, 240)
+        
+        function changeBodyBg(color){
+            document.body.style.background = color
+        }
+    </script>
+</head>
+<body>
+    <h1>Essa é a página do Felipe</h1>
+    <h2>Essa página foi criada unica e exclusivamente para DM124</h2>
+    <p><b>Nome: </b>Felipe G. Almeida</p>
+    <p><b>Idade: </b>24 Anos</p>
+    <p><b>Sexo: </b>Masculino</p>
+    <p><b>Estado civil: </b>Solteiro</p>
+</body>
+</html>
