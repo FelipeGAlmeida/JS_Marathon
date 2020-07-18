@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "chalk": "^2.4.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "useful-string": "0.0.2"
   }
 }
